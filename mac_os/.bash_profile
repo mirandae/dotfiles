@@ -31,6 +31,8 @@ function cd() {
     builtin cd "${new_directory}" && ls
 }
 
+alias pip='pip3'
+alias python='python3'
 alias mv='mv -i'
 alias cp='cp -i'
 alias rm='rm -i'
@@ -50,3 +52,7 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
     . /opt/local/etc/profile.d/bash_completion.sh
 fi
+
+# rust 
+export PATH="$HOME/.cargo/bin:$PATH"
+export RUST_SRC_PATH="$HOME/.cargo/bin"

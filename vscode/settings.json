@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    // go
+    "go.formatOnSave": true,
+    "go.formatTool":	"gofmt",
+    "go.autocompleteUnimportedPackages": false,
+    "go.enableCodeLens":	{"references": true, "runtest": true},
+
+    // python
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
+
+    // rust
+    "rust.mode": "rls",
+    "rust.rustup": {
+        "nightlyToolchain": "nightly-x86_64-apple-darwin",
+        "toolchain": "stable-x86_64-apple-darwin"
+    },
+    "rust.rls": {
+        "useRustfmt": true
+    },
+    "rust.actionOnSave": "clippy"
+
+
+}
