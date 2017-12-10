@@ -1,0 +1,8 @@
+alias mv='mv --interactive'
+alias rm='rm --interactive'
+alias ls='ls --color'
+alias sl='ls --color'
+alias xclip='xclip -selection c'
+alias gs='git status'
+alias diff='colordiff'
+alias tree='tree -a'
